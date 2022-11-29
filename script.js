@@ -33,7 +33,7 @@ function writePassword(event) {
     console.log(numbs);
     console.log(specialC);
     console.log(characterCount);
-var nc = "Parameters not met, please try again. Make sure to use yes or no for first 4 prompts, and a numberic value for the character number prompt";
+// var nc = "Parameters not met, please try again. Make sure to use yes or no for first 4 prompts, and a numberic value for the character number prompt";
 /* This section is taking the information gathered via the prompts and using it to decide how long, for all, and what character types will be used 
 when the passwords are created. I'm pretty sure there is a better way than a series of "if" statements to get this accomplished. That being said my goal was to
 produce a minimum viable product to satisy the challenge and from there look for a better way to accomplish this. With many more variables or variables with more than 
