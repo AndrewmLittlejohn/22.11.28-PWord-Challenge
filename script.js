@@ -129,7 +129,7 @@ for (var i = 0; i <= characterCount; i++){
     var randomNumber = Math.floor(Math.random() * Chars14.length);
     password +=  Chars14.substring(randomNumber, randomNumber +1);
     }  
-   } else { password += nc;}
+   } 
      
    console.log(password);   
 document.getElementById("password").value = password
